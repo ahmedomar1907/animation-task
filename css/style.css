@@ -1,0 +1,162 @@
+body
+{
+    background-color: gray;
+}
+.div1
+{
+    width: 250px;
+    height: 180px;
+    position: absolute;
+
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.div1 img
+{
+    width: 100%;
+}
+@keyframes change
+{
+    from{
+        left:0;
+    }
+    to
+    {
+        left: 83.5%;
+    }
+}
+.div2
+{
+    width: 250px;
+    height: 180px;
+    right: 0;
+    top: 100px;
+    position: absolute;
+    animation-delay: 3s;
+    animation-name: div2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.div2 img
+{
+    width: 100%;
+}
+@keyframes div2
+{
+    from{
+        right: 0;
+    }
+    to
+    {
+        right: 83.5%;
+    }
+}
+.div3
+{
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 220px;
+    animation-name: div3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+.div3 img{width: 100%;}
+@keyframes div3 
+{
+    from{left: 0;}
+    to{left: 83.5%;}
+}
+.div4
+{
+    width: 250px;
+    height: 180px;
+    right: 0;
+    top: 350px;
+    position: absolute;
+    animation-delay: 9s;
+    animation-name: div4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.div4 img
+{width: 100%;}
+@keyframes div4 
+{
+    from{right: 0;}
+    to{right: 83.5%;}
+}
+.div5
+{
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 470px;
+    animation-name: div5;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+.div5 img{width: 100%;}
+@keyframes div5
+{
+    from{left: 0;}
+    to{left: 83.5%;}
+}
+.div6
+{
+    width: 250px;
+    height: 180px;
+    right: 0;
+    top: 570px;
+    position: absolute;
+    animation-delay: 15s;
+    animation-name: div6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.div6 img
+{width: 100%;}
+@keyframes div6 
+{
+    from{right: 0;}
+    to{right: 83.5%;}
+}
+.div7
+{
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 700px;
+    animation-name: div7;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+.div7 img{width: 100%;}
+@keyframes div7
+{
+    from{left: 0;}
+    to{left: 83.5%;}
+}
+.div8
+{
+    width: 250px;
+    height: 180px;
+    right: 0;
+    top: 800px;
+    position: absolute;
+    animation-delay: 21s;
+    animation-name: div8;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.div8 img
+{width: 100%;}
+@keyframes div8 
+{
+    from{right: 0;}
+    to{right: 83.5%;}
+}    
